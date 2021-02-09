@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Counter count={this.state.count} incrementCount={this.incrementCount} />
-
+{/* ss/ */}
         <ul>
           {this.state.fruits.map((fruit, index)=>{
             return <li key={index}>{fruit}</li>
